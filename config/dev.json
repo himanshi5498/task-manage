@@ -1,0 +1,13 @@
+{
+	"port": 3006,
+	"http": true,
+	"sql_db": {
+		"master": {
+			"host": "02a602f3aaf1",
+			"user": "user",
+			"password": "user",
+			"database": "task_db",
+			"port": 3306
+		}
+	}
+}

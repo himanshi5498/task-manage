@@ -1,0 +1,22 @@
+{
+  "name": "assigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "scripts": {
+    "start": "export NODE_ENV=dev && pm2 start bin/www --name task_app && pm2 logs task_app",
+    "restart": "pm2 restart task_app && pm2 logs task_app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "joi": "^17.10.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "pm2": "^5.3.0",
+    "underscore": "^1.13.6"
+  }
+}
